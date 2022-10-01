@@ -3,10 +3,10 @@ import mealsImage from "../../assets/meals.jpeg";
 import styles from "./Header.module.css";
 import HeaderCartButton from "./HeaderCartButton";
 
-const Header = () => {
+const Header = (props) => {
   return (
     <>
-      <header className={styles.header}>
+      <header onClick={props.onShowCart} className={styles.header}>
         <h1>ReactMeals</h1>
         <HeaderCartButton />
       </header>
