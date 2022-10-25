@@ -1,7 +1,5 @@
 # Food Order App
 
-> Live demo [_here_](https://react-expense-app-9541e.web.app).
-
 ## Table of contents
 * [General info](#general-info)
 * [Setup](#setup)
@@ -11,8 +9,7 @@
 
 
 ## General info
-This project is simple food order app created with React.js
-It is an application that consolidates the material of the online course
+This project is simple food order app created with React.js using Context and Reducer
 
 	
 ## Setup
